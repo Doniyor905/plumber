@@ -1,0 +1,502 @@
+
+
+body{
+background: ;
+position: absolute;
+}
+.time{
+display: flex;
+border: 1px solid black;
+border-radius: 30px;
+margin: 5px;
+margin-top: 20px;
+background: #FFFAFA;
+ 
+
+width: 230px;
+float: right;
+}
+.time1 img{
+/*margin-top: 5px;*/
+/*margin-left: 2px;*/
+}
+.time2{
+	margin-top: 8px;
+	margin-left: 5px;
+	font-size: 16px;
+}
+
+.server img{
+float: left;
+  position: relative;
+  
+}
+.server1{
+position: relative;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 15px;
+    color: white;
+    color: #111111;
+    margin-top: 10px;
+    margin-top: 10px;
+
+}
+.fon{
+	background: #F2F3F4;
+	height: 100px;
+	
+}
+header{
+	margin-top: 10px;
+	font-family: 'Cuprum', sans-serif;
+	background: white;
+	border: 1px solid black;
+}
+.one *{
+	margin: 0;
+	padding: 0;
+}
+.one ul,
+.one ol{
+	list-style: none;
+}
+.one > ul{
+	display: flex;
+	justify-content: center;
+}
+.one > ul li a{
+	display: block;
+	background: white;
+	padding: 20px 70px 20px 70px;
+	font-size: 17px;
+		font-weight: 700;
+
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+
+.one > ul li > a i.fa{
+	position: absolute;
+	top: 15px;
+	left: 12px;
+	font-size: 18;
+}
+.one > ul li:{
+border-left: 1px solid #b2b3b5;
+}
+.one > ul li {
+}
+.one li a:hover{
+	background: #333;
+	color: white;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+
+}
+/*vtoroy menu*/
+.one li ul{
+	position: absolute;
+	min-width: 280px;
+	display: none;
+}
+.one li > ul li{
+	border: 1px solid #c7c8ca;
+}
+.one li > ul li a{
+	padding: 15px;
+	text-transform: none;
+	background: white;
+	font-size: 16px;
+
+
+}
+.one li:hover > ul{
+	display: block;
+
+
+}
+.two {
+	background-image: url("https://santehnik-home.ru/wp-content/uploads/2018/11/main_back.jpg");
+	height: 500px;
+	margin-top: 10px;
+	
+}
+.class{
+	display: flex;
+	justify-content: center;
+	margin-left: 500px;
+
+	
+
+}
+form{
+	
+	
+}
+input{
+	padding: 10px;
+	
+	border: 1px solid black;
+	height: 50px;
+	width: 250px;
+	font-size: 20px;
+	transition: .2s;
+}
+input:hover{
+	color: #333;
+	box-shadow: 0 0 10px yellow;
+	border: 1px solid yellow;
+}
+
+.o2{
+
+}
+
+}
+.text{
+	font-size: 30px; 
+	color: yellow;
+	padding-left: 820px;
+	padding-top: 50px;
+}
+.text1{
+	font-size: 40px;
+	color: yellow;
+	padding-left: 100px;
+	margin-top: -250px;
+	font-weight: 900;
+}
+.text2{
+	font-size: 40px;
+	color: white;
+	margin-top: 20px;
+	padding-left: 320px;
+	font-weight: 900;
+}
+.container{
+	
+	background-color: #333;
+	width: 100px;
+	height: 50px;
+	display: flex;
+	
+    
+}
+.social{
+	color: #fff;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	margin-left: 150px;
+}
+.social__item{
+	
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	transition: all 0.3s;
+}
+.social__item{
+	cursor: pointer;
+}
+.facebook:hover {
+	
+    color: #34495E;
+}
+.telegram:hover{
+	
+    color:#7FB3D5;
+}
+.instagram:hover{
+	
+    color: #EC7063;
+}
+
+.facebook  {
+	color: white;
+	text-decoration: none;
+
+}
+.telegram{
+	color: white;
+	    text-decoration: none;
+
+}
+.instagram{
+	color:  white;
+	    text-decoration: none;
+
+}
+.action{
+	margin-top:50px;
+}
+
+
+.text{
+	color: yellow;
+	font-weight: 900;
+	font-size: 25px;
+	margin-left: 800px;
+}
+.slider{
+	width: 1100px;
+	height: 600px;
+	overflow: hidden;
+	border: 5px solid white;
+	margin-top: 20px;
+	margin-left: 150px;
+    border:1px solid white;
+    border-radius: 10px;
+     transition: .5s;
+}
+.slider:hover{
+	color: #333;
+	box-shadow: 0 0 20px black;
+	border: 1px solid #5F6A6A;
+}
+.middle{
+	
+	top: 50%;
+	left: 9%;
+	transform: translate(-50, -50);
+}
+.navigation{
+	position: absolute;
+	bottom: 780px;
+	left: 43%;
+	transform: translateX(-50);
+	display: flex;
+}
+.bar{
+	height: 8px;
+	width: 30px;
+	margin: 6px;
+	cursor: pointer;
+	background-color: #ddd;
+	opacity: .7;
+	border-radius: 10px;
+	transition: all .4s ease;
+}
+.bar:hover{
+	opacity: 0.8;
+	transform: scale(1.1);
+}
+input[name="r"] {
+	position: absolute;
+	visibility: hidden;
+}
+.slides{
+	width: 400%;
+	height: 100%;
+	display: flex;
+}
+.slide{
+	width: 25%;
+	transition: all .6s ease;
+}
+.slide img{
+	width: 100%;
+	height: 100%;
+}
+#r1:checked ~ .s1{
+	margin-left: 0;
+}
+#r2:checked ~ .s1{
+	margin-left: -25%;
+}
+#r3:checked ~ .s1{
+	margin-left: -50%;
+}
+#r4:checked ~ .s1{
+	margin-left: -75%;
+}
+.container1{
+	display: flex;
+	justify-content: center;
+	margin-left: 50px;
+
+}
+
+
+.row {
+	margin:50px;
+}
+.row2{
+	margin: 50px;
+}
+.row3{
+	margin: 50px;
+}
+.row img{
+margin-left: 80px;
+}
+.row2 img{
+margin-left: 80px;
+
+}
+.row3 img{
+margin-left: 80px;
+
+}
+footer{
+	width: 100%;
+	height: 200px;
+	background: white;
+}
+table{
+	font-family: manospace;
+	text-align: center;
+	border-collapse: collapse;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	background-color: #E5E7E9;
+
+	height: 300px;
+
+
+}
+.main{
+	border-top: 1px solid #8c8c8c;
+}
+.str{
+		border-top: 1px solid #8c8c8c;
+        transition: .5s;
+        height: 50px;
+
+}
+th{
+	font-weight: 300;
+	padding: 5px 55px;
+	color: #8c8c8c;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+td{
+   font-size: 18px;
+   padding: 20px 40px;
+
+}
+.str:hover {
+	background-color: #A6ACAF;
+	color: #fff;
+}
+.row:hover{
+	
+	color: #333;
+	box-shadow: 0 0 10px black;
+}
+	.row{
+		border: 1px solid #fff;
+		border-radius: 10px;
+        transition: .3s;
+
+	}
+	.row2:hover{
+	
+	color: #333;
+	box-shadow: 0 0 10px black;
+}
+	.row2{
+		border: 1px solid #fff;
+		border-radius: 10px;
+          transition: .3s;
+
+	}
+	.row3:hover{
+	
+	color: #333;
+	box-shadow: 0 0 10px black;
+}
+	.row3{
+		border: 1px solid #fff;
+		border-radius: 10px;
+         transition: .3s;
+
+	}
+	.div{
+
+	}
+	.box{
+	
+}
+.btn-lg{
+	margin-left: 800px;
+	margin-top:350px;
+
+}
+.foto{
+	position: absolute;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-left: 790px;
+	margin-top: 100px;
+
+}
+.foto1{
+	display: flex;
+	
+
+}
+.foto1 p{
+	margin-top: 15px;
+	margin-left: 15px;
+	font-weight: 500px;
+}
+.foto1 img{
+	margin-top: 7px;
+	margin-left: 2px;
+}
+.foto2{
+	display: flex;
+}
+.foto2 p{
+	margin-top: 20px;
+	margin-left: 5px;
+	font-weight: 500px;
+}
+.foto3{
+	display: flex;
+}
+.foto3 img{
+	margin-top: 10px;
+	margin-left: 4px;
+}
+.foto3 p{
+	margin-left: 20px;
+	margin-top: 15px;
+	font-weight: 500px;
+}
+.foto p{
+	color: white;
+}
+.foto2 img{
+	margin-top: 7px;
+	margin-left: 5px;
+}
+textarea{
+    margin-top: 10px;
+	width: 100% !important;
+    background: #ededed;
+    box-shadow: none;
+    border: 1px solid #d7d7d7;
+    font-size: 14px;
+    border-radius: 2px;
+    padding: 2px 10px !important;
+}
+
+
+ /*<h1>Оформить заказ</h1>
+  <input type="text" name="" placeholder="Ваше Имя">
+  <input type="text" id="phone" name="" placeholder="+998(__)___-__-__">
+  <textarea name="problem" cols="10" rows="3"
+  invalid="false" placeholder="Опишите кратко Вашу проблему"></textarea>
+  
+  
+  <h3>Перезвоним в течение 1 минуты</h3>
